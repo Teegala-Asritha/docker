@@ -1,2 +1,2 @@
-FROM almalinux:9  any image is available in local it will take from local if not there it will check in docker hub
+FROM almalinux:9
 RUN dnf install nginx -y
